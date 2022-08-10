@@ -15,8 +15,8 @@ spec:
         app: service-aforo255
     spec:
       containers:
-      - name: service-aforo255
-        image: antony0618/servicenet6:latest
+      - name: ceafservicenet6
+        image: carlosangel89/ceafservicenet6.0:latest
         ports:
         - containerPort: 80
         imagePullPolicy: Always
